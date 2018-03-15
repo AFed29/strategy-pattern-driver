@@ -1,14 +1,16 @@
+import behaviours.IDrivable;
+
 public class Driver {
     private String name;
-    private IDrivable ride;
+    private IDrivable vehicle;
 
-    public Driver(String name, IDrivable ride) {
+    public Driver(String name, IDrivable vehicle) {
         this.name = name;
-        this.ride = ride;
+        this.vehicle = vehicle;
     }
 
     public int timeToDriveDistance(int distance) {
-        return ride.timeToDriveDistance(distance);
+        return vehicle.timeToDriveDistance(distance);
     }
 
     public String getName() {
@@ -16,6 +18,6 @@ public class Driver {
     }
 
     public void setRide(IDrivable ride) {
-        this.ride = ride;
+        this.vehicle = ride;
     }
 }

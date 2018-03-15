@@ -1,4 +1,6 @@
-public abstract class Vehicle implements IDrivable {
+package vehicles;
+
+public abstract class Vehicle  {
     private int averageSpeed;
 
     public Vehicle(int averageSpeed) {
@@ -7,9 +9,5 @@ public abstract class Vehicle implements IDrivable {
 
     public int getAverageSpeed() {
         return averageSpeed;
-    }
-
-    public int timeToDriveDistance(int distance) {
-        return (distance / getAverageSpeed());
     }
 }

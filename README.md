@@ -21,7 +21,7 @@ When implemented, it should return the time required to drive that distance.
 
 ### Extensions
 
-1. Create a Vehicle superclass, which contains the common properties and methods.
+1. Create a vehicles.Vehicle superclass, which contains the common properties and methods.
 2. Add more vehicles.
 
 ### Remember
